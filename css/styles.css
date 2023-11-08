@@ -70,6 +70,27 @@ div.image-container img{
     border-radius: 1rem;
 }
 
+div.video-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+div.video-container iframe{ /* vídeos youtube */
+    border-radius: 1em;
+}
+
+div.video-container a{
+    background-color: #ffd166;
+    padding: 1em;
+    border-radius: 999em;
+    font-weight: bold;
+}
+
+div.video-container *{
+    margin: 1em;
+}
+
 h2{
     margin-top: 0.5rem;
     margin-bottom: 0.5em;
