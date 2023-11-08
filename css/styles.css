@@ -1,9 +1,10 @@
 /*
-#ef476f
-#ffd166
-#06d6a0
-#118ab2
-#073b4c
+#ef476f -> rojo/rosado
+#ffd166 -> amarillo
+#06d6a0 -> verde
+#118ab2 -> azul medio
+#073b4c -> azul oscuro
+#e3fffc -> azul claro
 */
 
 
@@ -13,16 +14,37 @@
 }
 
 body{
-    background-color: rgb(227, 255, 252);
+    background-color: #e3fffc;
 }
 
 header{
     background-color: #06d6a0;
     padding: 1em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+li{
+    display: inline;
+    background-color: #ef476f;
+    padding: 1rem;
+    margin-left: 1rem;
+    border-radius: 1rem;
+}
+
+li a{
+    color: #fff;
 }
 
 main{
     padding: 2em;
+    max-width: 256rem;
+}
+
+h2{
+    margin-top: 1rem;
+    margin-bottom: 0.5em;
 }
 
 footer{
@@ -30,4 +52,11 @@ footer{
     color: #fff;
     font-weight: bold;
     padding: 1em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer a{
+    color: #fff;
 }
