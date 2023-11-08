@@ -28,6 +28,7 @@ header{
 li{
     display: inline;
     background-color: #ef476f;
+    font-weight: bold;
     padding: 1rem;
     margin-left: 1rem;
     border-radius: 1rem;
@@ -41,19 +42,25 @@ main{
     padding: 2em;
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 
-section{
-    background-color: #ffd166;
+div.center{
+    max-width: 76rem;
+}
+
+div.bloque{
+    background-color: #fff;
     padding: 1rem;
-    border-radius: 2rem;
-    max-width: 64rem;
     margin-bottom: 1rem;
+    border-radius: 1rem;
+    border: 2px solid #ffd166;
 }
 
 h2{
     margin-top: 0.5rem;
     margin-bottom: 0.5em;
+    color: #073b4c;
 }
 
 footer{
